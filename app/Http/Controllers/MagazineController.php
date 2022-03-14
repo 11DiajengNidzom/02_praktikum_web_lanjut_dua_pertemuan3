@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 class MagazineController extends Controller
 {
     public function index(){
-        return view('magazine',[
+        return view('dropdown-pages.magazine',[
             "title" => "Magazine"
         ]);
     }

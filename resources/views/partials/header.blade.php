@@ -8,7 +8,7 @@
             <ol>
                 <li><a href="{{ route('nivo') }}">Nivo Slider</a></li>
                 <li><a href="{{ route('slider') }}">EI Slider</a></li>
-                <li><a href="{{ route('fullscreen') }}">Fullscreen Slider</a></li>
+                <li><a href="{{ route('fullscreen-gallery') }}">Fullscreen Slider</a></li>
                 <li><a href="{{ route('image-frontpage') }}">Static Image</a></li>
             </ol>
         </li>

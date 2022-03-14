@@ -8,7 +8,7 @@ class SliderController extends Controller
 {
     public function index()
     {
-        return view('ei-slider', [
+        return view('dropdown-home.ei-slider', [
             "title" => "EI Slider"
         ]);
     }

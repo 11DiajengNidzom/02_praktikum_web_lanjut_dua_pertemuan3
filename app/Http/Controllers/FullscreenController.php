@@ -8,7 +8,7 @@ class FullscreenController extends Controller
 {
     public function index()
     {
-        return view('fullscreen-gallery', [
+        return view('dropdown-home.fullscreen-gallery', [
             "title" => "Fullscreen Gallery"
         ]);
     }

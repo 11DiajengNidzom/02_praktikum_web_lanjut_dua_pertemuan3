@@ -42,36 +42,36 @@ use Illuminate\Support\Facades\Route;
 
 // Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
-Route::get('/index', [IndexController::class,'index']) -> name('index');
+Route::get('/index', [IndexController::class, 'index'])->name('index');
 
-Route::get('/nivo', [NivoController::class,'index']) -> name('nivo');
+Route::get('/nivo', [NivoController::class, 'index'])->name('nivo');
 
-Route::get('/ei-slider', [SliderController::class,'index'])-> name('slider');
+Route::get('/ei-slider', [SliderController::class, 'index'])->name('slider');
 
-Route::get('/fullscreen-gallery', [FullscreenController::class,'index']) -> name('fullscreen');
+Route::get('/fullscreen-gallery', [FullscreenController::class, 'index'])->name('fullscreen-gallery');
 
-Route::get('/image-frontpage', [ImageFrontpageController::class,'index']) -> name('image-frontpage');
+Route::get('/image-frontpage', [ImageFrontpageController::class, 'index'])->name('image-frontpage');
 
-Route::get('/magazine',[MagazineController::class,'index']) -> name('magazine');
+Route::get('/magazine', [MagazineController::class, 'index'])->name('magazine');
 
-Route::get('/blog',[BlogController::class,'index']) -> name('blog');
+Route::get('/blog', [BlogController::class, 'index'])->name('blog');
 
-Route::get('/full-width', [FullWidthController::class,'index']) -> name('full-width');
+Route::get('/full-width', [FullWidthController::class, 'index'])->name('full-width');
 
-Route::get('/columns', [ColumnsController::class,'index']) -> name('columns');
+Route::get('/columns', [ColumnsController::class, 'index'])->name('columns');
 
-Route::get('/elements', [ElementsController::class,'index']) -> name('elements');
+Route::get('/elements', [ElementsController::class, 'index'])->name('elements');
 
-Route::get('/gallery-simple', [GallerySimpleController::class,'index']) -> name('gallery-simple');
+Route::get('/gallery-simple', [GallerySimpleController::class, 'index'])->name('gallery-simple');
 
-Route::get('/portfolio', [PortfolioController::class,'index']) -> name('portfolio');
+Route::get('/portfolio', [PortfolioController::class, 'index'])->name('portfolio');
 
-Route::get('/gallery-fader', [GalleryFaderController::class,'index']) -> name('gallery-fader');
+Route::get('/gallery-fader', [GalleryFaderController::class, 'index'])->name('gallery-fader');
 
-Route::get('/video', [VideoController::class,'index']) -> name('video');
+Route::get('/video', [VideoController::class, 'index'])->name('video');
 
-Route::get('/photogrid', [PhotoGridController::class,'index']) -> name('photogrid');
+Route::get('/photogrid', [PhotoGridController::class, 'index'])->name('photogrid');
 
-Route::get('/contact', [ContactController::class,'index']) -> name('contact');
+Route::get('/contact', [ContactController::class, 'index'])->name('contact');
 
 // Lengkap / Completed no need to Repair

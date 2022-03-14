@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 class ImageFrontpageController extends Controller
 {
     public function index(){
-        return view('image-frontpage',[
+        return view('dropdown-home.image-frontpage',[
             "title" => "Image Frontpage"
         ]);
     }
